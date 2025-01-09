@@ -1,0 +1,148 @@
+
+/* Estilos para el header */
+header {
+    background: url('images/bg_3.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh; 
+    color: #ffffff;
+    text-align: center;
+    padding: 0;
+}
+
+#navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 70%; 
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 70px;
+}
+
+button {
+    display: none;
+}
+
+#listado{
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+#listado:hover {
+    background-color: #F85959;
+    color:
+}
+
+/* Menú horizontal */
+#horizontalMenu ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#horizontalMenu li {
+    margin-left: 50px;
+}
+
+#horizontalMenu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+/* Destinos */
+#subHeader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Fondo de la imagen */
+#subHeader h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0;
+}
+ /* Content section styles */
+ #content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Left column */
+  #leftColumn {
+    flex: 1;
+    max-width: 300px;
+  }
+  
+  .leftBlock {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .leftBlock h3 {
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"], select, input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #c82333;
+  }
+  
+  .starsContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #c82333;
+  }
+
+
