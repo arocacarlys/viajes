@@ -92,7 +92,7 @@ button {
     text-align: center;
     margin-top: 0;
 }
- /* Content section styles */
+ /* Content*/
  #content {
     display: flex;
     flex-wrap: wrap;
@@ -100,7 +100,6 @@ button {
     padding: 20px;
   }
   
-  /* Left column */
   #leftColumn {
     flex: 1;
     max-width: 300px;
@@ -144,5 +143,115 @@ button {
     gap: 10px;
     color: #c82333;
   }
+   /* destinos */
+   #destinationsArea {
+    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .destination {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .destinationPicture {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #parisPicture {
+    background-image: url('images/destination-1.jpg');
+  }
+  
+  #californiaPicture {
+    background-image: url('images/destination-2.jpg');
+  }
+  
+  #londonPicture {
+    background-image: url('images/destination-3.jpg');
+  }
+  
+  #singapurPicture {
+    background-image: url('images/destination-4.jpg');
+  }
+  
+  #sidneyPicture {
+    background-image: url('images/destination-5.jpg');
+  }
+  
+  #kiotoPicture {
+    background-image: url('images/destination-6.jpg');
+  }
+  
+  .destinationContent {
+    padding: 15px;
+  }
+  
+  .destinationContent h3 a {
+    color: #007BFF;
+    transition: color 0.3s;
+  }
+  
+  .destinationContent h3 a:hover {
+    color: #0056b3;
+  }
+  
+  .destinationInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #28a745;
+  }
+  
+  .destinationFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .greenButton {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .greenButton:hover {
+    background-color: #218838;
+  }
+  /* paginas */
+  #navPages ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  #navPages a, #navPages span {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  #navPages a:hover {
+    background-color: #f0f0f0;
+  }
+
+  
+
+
 
 
