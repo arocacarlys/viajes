@@ -193,12 +193,12 @@ button {
   }
   
   .destinationContent h3 a {
-    color: #007BFF;
+    color: black;
     transition: color 0.3s;
   }
   
   .destinationContent h3 a:hover {
-    color: #0056b3;
+    color: black;
   }
   
   .destinationInfo {
@@ -211,7 +211,7 @@ button {
   .price {
     font-size: 20px;
     font-weight: bold;
-    color: #28a745;
+    color: #2f89fc;
   }
   
   .destinationFooter {
@@ -222,7 +222,7 @@ button {
   }
   
   .greenButton {
-    background-color: #28a745;
+    background-color: #8bc34a;
     color: white;
     padding: 5px 10px;
     border-radius: 5px;
@@ -235,20 +235,94 @@ button {
   /* paginas */
   #navPages ul {
     display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 20px;
+    gap: 170px;
+    align-items: center;
   }
   
   #navPages a, #navPages span {
-    padding: 10px 15px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-  }
+
+    width: 40px;
+    height: 40px;
+    border: 1px solid #e0a6a6;
+    border-radius: 50%;
+    background: none;
+    color: #e0a6a6;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+  
   
   #navPages a:hover {
-    background-color: #f0f0f0;
+    background-color: #e0a6a6;
+    color: white;
   }
+   /* Footer */
+   footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 15px;
+  }
+  
+  #footerContent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  #footerContent > div {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  footer h2 {
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  footer ul {
+    margin-top: 10px;
+  }
+  
+  footer a {
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  
+  #socialLinks {
+    display: flex;
+    gap: 10px;
+  }
+  
+  #socialLinks i {
+    font-size: 20px;
+    color: white;
+    transition: color 0.3s;
+  }
+ 
+  
+  /* Responsive  */
+  @media (max-width: 768px) {
+    #navContainer nav {
+      flex-direction: column;
+    }
+  
+    #horizontalMenu ul {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  
+    #content {
+      flex-direction: column;
+    }
+  
+    #destinationsArea {
+      grid-template-columns: 1fr;
+    }
+  }
+
 
   
 
